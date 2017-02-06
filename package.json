@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build":"babel js -d lib",
-    "start":"babel-node ./js/es6_import.js"
+    "build": "babel js -d lib",
+    "start": "babel-node ./js/es6_import.js"
   },
   "repository": {
     "type": "git",
@@ -22,6 +22,7 @@
     "babel-cli": "^6.22.2",
     "babel-preset-es2015": "^6.22.0",
     "babel-preset-react": "^6.22.0",
-    "babel-preset-stage-2": "^6.22.0"
+    "babel-preset-stage-2": "^6.22.0",
+    "babel-register": "^6.22.0"
   }
 }
