@@ -1,0 +1,27 @@
+{
+  "name": "babel-sample",
+  "version": "1.0.0",
+  "description": "this is a babel sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"babel js -d lib",
+    "start":"babel-node ./js/es6_import.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/18895332559/babel-sample.git"
+  },
+  "author": "liwen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/18895332559/babel-sample/issues"
+  },
+  "homepage": "https://github.com/18895332559/babel-sample#readme",
+  "devDependencies": {
+    "babel-cli": "^6.22.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-2": "^6.22.0"
+  }
+}
